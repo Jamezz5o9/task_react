@@ -1,0 +1,75 @@
+.hero_main{
+    background-image: url(../../../assets/images/trueCaller_back.jpg);  
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 850px;
+    width: 93%;
+    margin: 0 auto 3rem auto; 
+    
+   
+    .hero_main_second{
+        width:50%;  
+        align-items: center;
+        justify-content: center;
+        text-align:left;  
+        padding-top: 5%; 
+        padding-left: 3rem;  
+            
+     
+        .first_p{
+            font-size: 70px;
+            font-weight: 500; 
+            width: 70%;  
+            margin-bottom: 3rem;         
+        }
+
+        .second_p{
+            font-size: 25px;
+            font-weight: 100;
+            width: 70%;
+            margin-bottom: 4rem;
+        }
+
+        .hero_btn{
+            width: 50%;           
+            display: flex;                           
+            font-weight: 400;
+        }
+
+    }
+    
+    .third_container{                
+        display: flex; 
+        width: 60%;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 4rem;  
+        font-size: 20px;   
+        font-weight: 600;
+        
+        p{
+            color: white;
+        }
+        
+    
+
+        .third_container_1{
+            width: 50%;
+            margin-right: 1.75rem;
+
+
+            .star{            
+                font-size: 20px;                
+            }
+        }
+
+        .third_container_2{
+            width: 50%;
+        }
+        
+
+    }
+
+}
+
